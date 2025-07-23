@@ -1,0 +1,11 @@
+test_dbt_1:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: SALES_DB
+      schema: RAW
+      account: ''
+      user: ''
